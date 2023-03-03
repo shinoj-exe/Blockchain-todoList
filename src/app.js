@@ -79,7 +79,7 @@ App={
 
   renderTasks: async()=>{
     // load total task count from the blockchain
-    
+    const taskCount= await App.todoList.taskCount();
     // render out each task templete with new task tempolate
     // show the task
   },
